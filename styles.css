@@ -3,4 +3,25 @@
 
 body {
     font-family: 'Source Code Pro', monospace;
+    margin: auto;
+    padding: 0;
+}
+
+nav {
+    color: antiquewhite;
+    background-color: #111827;
+    padding: 2.5rem;
+}
+
+#nav-list {
+    text-align: right;
+    margin: -1rem;
+    padding: 0.3rem;
+}
+
+.nav-inline {
+    display: inline;
+    cursor: pointer;
+    list-style: none;
+    padding: 1rem
 }
