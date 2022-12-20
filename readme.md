@@ -2,14 +2,14 @@
 
 My portfolio website
 
-#Screenshot of the Home Page
+#Screenshot
 
 ![image](https://user-images.githubusercontent.com/67526478/208760745-ebefe2ee-a8f4-4903-8ec6-d8c85596aa5e.png)
 
 
-#Tech Stack Used
+#TechStack
 
-HTML, CSS
+HTML, CSS.
 
 #Features
 
@@ -17,6 +17,6 @@ HTML, CSS
 2. The project section has all the hosted projects along with its GitHub source code.
 3. A Blog section where I will add blogs in future, as of now it contains 2 dummy blogs.
 
-#Learnings while building the Portfolio
+#Learnings
 
 Learnt how to use correct HTML tags along with CSS selectors and attributes to make a website responsive even without using Media Queries.
