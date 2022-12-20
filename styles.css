@@ -61,6 +61,10 @@ hr{
     color: white ;
 }
 
+.link .link-primary .link-back {
+    margin-bottom: 2rem;
+}
+
 /* Lists */
 
 .list-non-bullet {
@@ -125,7 +129,7 @@ hr{
 /* Section */
 
 .section {
-    padding: 1.2rem ;
+    padding: 2.5rem ;
 }
 
 .section h1{
