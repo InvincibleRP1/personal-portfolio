@@ -1,3 +1,23 @@
 # Portfolio 
 
-Hey! I am working on this portfolio so that I can enhance my knowledge by learning new skills and also showcase my work to everyone out there.
+#About
+
+My portfolio website
+
+#Screenshot of the Home Page
+![image](https://user-images.githubusercontent.com/67526478/208760745-ebefe2ee-a8f4-4903-8ec6-d8c85596aa5e.png)
+
+
+#Tech Stack Used
+
+HTML, CSS
+
+#Features
+
+1. Contains a home page, that displays the technologies I know, and also the links for the Projects and Blogs section alongwith my Social Media Handle links.
+2. The project section has all the hosted projects along with its GitHub source code.
+3. A Blog section where I will add blogs in future, as of now it contains 2 dummy blogs.
+
+#Learnings while building the Portfolio
+
+Learnt how to use correct HTML tags along with CSS selectors and attributes to make a website responsive even without using Media Queries.
