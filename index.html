@@ -6,64 +6,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rahul's portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="./Images/Favicon/favicon.ico">
     <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
 
-    <nav>
-        <div class="header-hero">Rahul</div>
-        <ul id = "nav-list">
-            <li class = "nav-inline">Home</li>
-            <li class = "nav-inline">Projects</li>
-            <li class = "nav-inline">Blogs</li>
+    <nav class="navigation container">
+        <div class="nav-brand">RP</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Blogs</a>
+            </li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2>@Header</h2>
-    <header>
-        <img src="/Images/header-image.svg" alt="header-image">
-        <h1>Hi! I am Rahul, a Web Developer</h1>
+    <header class="hero">
+        <img class="hero-img" src="/Images/header-image.svg" alt="" />
+        <h1 class="hero-heading">
+            Hi! I am Rahul Pandey,<span class="heading-inverted"> a Web Developer</span>
+        </h1>
     </header>
-    <hr>
+    
 
 
-    <h2>@Section</h2>
-    <h1>Skills</h1>
-    <ul>
-        <p>I am familiar with HTML5, CSS3, ReactJS, NodeJS, Angular, GitHub</p>
-    </ul>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1> <strong> Skills </strong></h1>
+            <p>
+                I'm familiar with HTML5, CSS3, Git, GitHub, JavaScript, NodeJS, ReactJS, and Web Hosting.
+            </p>
+        </div>
+    </section>
 
-    <hr>
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>
+                To showcase my work, I have hosted my projects online. Have a look!
+            </p>
+            <a class="link link-primary" href="/">Projects</a>
+        </div>
 
-    <h2>@Section</h2>
-    <h1>Projects</h1>
-    <div>To showcase my work, I have hosted my projects online. You can view them below.</div>
-    <a href="/">My Projects</a>
+    </section>
 
-    <hr>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1> Blogs </h1>
+            <p>
+                To document my journey of learning, I write technical and non-technical blogs.
+            </p>
+            <a class="link link-primary" href="/">Blogs</a>
+        </div>
+    </section>
 
-    <h2>@Section</h2>
-    <h1>Blogs</h1>
-    <p>To document my journey of learning, I write some technical and non-technical blogs.</p>
-    <a href="/">My Blogs</a>
+   
 
-    <hr>
+    <footer class="footer">
+        <div class="footer-header">Connect with me</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/InvincibleRP1" target="_blank">
+                    <i class="fa fa-github" style="font-size: 25px;"aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/rahul-pandey-311843168/" target="_blank">
+                    <i class="fa fa-linkedin" style="font-size: 25px;"aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/kungfupandey1" target="_blank">
+                    <i class="fa fa-twitter" style="font-size: 25px;" aria-hidden="true"></i>
+                </a>
+            </li>
 
-    <footer>
-        <div>Connect with me</div>
-        <ul>
-            <li><a href="/">A</a></li>
-            <li><a href="/">B</a></li>
-            <li><a href="/">C</a></li>
-            <li><a href="/">D</a></li>
+            <li class="list-item-inline">
+                <a class="link" href="mailto:rahulpnd056@gmail.com" target="_blank">
+                    <i class="fa fa-envelope-o" style="font-size: 25px;" aria-hidden="true"></i>
+                </a>
+            </li>
         </ul>
-
     </footer>
-
 </body>
 
 </html>
