@@ -1,10 +1,9 @@
 # Portfolio 
 
-#About
-
 My portfolio website
 
 #Screenshot of the Home Page
+
 ![image](https://user-images.githubusercontent.com/67526478/208760745-ebefe2ee-a8f4-4903-8ec6-d8c85596aa5e.png)
 
 
